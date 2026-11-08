@@ -16,6 +16,7 @@ Schematic: <img src="Pictures/Schematic.png" alt="Schematic" width="600">
 PCB: <img src="Pictures/Pcb.png" alt="PCB" width="600">
 3D: <img src="Pictures/3d.png" alt="3D" width="600">
 # BOM
+
 | Ref no | Name | Desc | Pcs needed | Pcs minimum order | Price for needed/minimum ordered (USD) | Link |
 |---|---|---|---|---|---|---|
 | C2 | Rubycon 16YXJ470M8X11.5 (LCSC C432444) | 470uF 16V radial electrolytic, D8 x 11.5mm, 3.5mm pitch | 1 | 5 | 0.45 | [LCSC](https://www.lcsc.com/product-detail/C432444.html) |
