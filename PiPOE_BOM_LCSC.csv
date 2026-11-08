@@ -1,8 +1,8 @@
 Ref no,Name,Desc,Pcs needed,Pcs minimum order,Price for needed/minimum ordered (USD),Link
-C2,Rubycon 16YXJ470M8X11.5 (LCSC C432444),"470uF 16V radial electrolytic, D8 x 11.5mm, 3.5mm pitch",1,5,0.42,https://www.lcsc.com/product-detail/C432444.html
-C3,FH 0805B104K500NT (LCSC C38141),"100nF 50V X7R 0805 ceramic",1,100,0.35,https://www.lcsc.com/product-detail/C38141.html
-C4,HRE CGA0805X7R106K250MT (LCSC C6119932),"10uF 25V X7R 0805 ceramic",1,10,0.56,https://www.lcsc.com/product-detail/C6119932.html
-"D1-D8",JSMSEMI SS210 (LCSC C20609197),"100V 2A Schottky diode, SMA (DO-214AC)",8,20,0.43,https://www.lcsc.com/product-detail/C20609197.html
-D9,JUXING SMAJ58A (LCSC C5182308),"400W unidirectional TVS 58V standoff / 93.6V clamp, SMA",1,10,0.27,https://www.lcsc.com/product-detail/C5182308.html
-D10,UBright red LED 0805 (LCSC C2295),"Red LED 0805, ~100mcd at 20mA",1,50,0.45,https://www.lcsc.com/product-detail/C2295.html
-R1,Yageo RC1206FR-0727KL (LCSC C137340),"27k 1% 0.25W thick film resistor, 1206",1,50 (typical LCSC min - check),"~0.50 (price not shown in my search, estimate)",https://www.lcsc.com/product-detail/C137340.html
+C2,Rubycon 16YXJ470M8X11.5 (LCSC C432444),"470uF 16V radial electrolytic, D8 x 11.5mm, 3.5mm pitch",1,5,0.45,https://www.lcsc.com/product-detail/C432444.html
+C3,FH 0805B104K500NT (LCSC C38141),"100nF 50V X7R 0805 ceramic",1,100,0.68,https://www.lcsc.com/product-detail/C38141.html
+C4,HRE CGA0805X7R106K250MT (LCSC C6119932),"10uF 25V X7R 0805 ceramic",1,5,0.38,https://www.lcsc.com/product-detail/C6119932.html
+"D1-D8",JSMSEMI SS210 (LCSC C20609197),"100V 2A Schottky diode, SMA (DO-214AC)",8,20,0.42,https://www.lcsc.com/product-detail/C20609197.html
+D9,JUXING SMAJ58A (LCSC C5182308),"400W unidirectional TVS 58V standoff / 93.6V clamp, SMA",1,10,0.15,https://www.lcsc.com/product-detail/C5182308.html
+D10,UBright red LED 0805 (LCSC C2295),"Red LED 0805, ~100mcd at 20mA",1,50,0.54,https://www.lcsc.com/product-detail/C2295.html
+R1,Yageo RC1206FR-0727KL (LCSC C137340),"27k 1% 0.25W thick film resistor, 1206",1,100,"0.89",https://www.lcsc.com/product-detail/C137340.html
