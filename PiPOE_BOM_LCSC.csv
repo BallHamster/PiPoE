@@ -8,4 +8,4 @@ D10,UBright red LED 0805 (LCSC C2295),"Red LED 0805, ~100mcd at 20mA",1,50,0.54,
 R1,Yageo RC1206FR-0727KL (LCSC C137340),"27k 1% 0.25W thick film resistor, 1206",1,100,"0.89",https://www.lcsc.com/product-detail/C137340.html
 J1,ZHOURI 2.54-2*20,"2x20 (40-pin) female header socket, 2.54mm, straight, 8.5mm height - Pi GPIO",1,5,1.54,https://www.lcsc.com/product-detail/C2977589.html
 J2,ZHOURI 2.54-2*2,"2x2 (4-pin) female header socket, 2.54mm, straight, 8.5mm height - Pi PoE",1,10,0.76,https://www.lcsc.com/product-detail/C2977590.html
-AG1,Silvertel AG5405, PoE module",1,1,16,"https://hu.mouser.com/en/ProductDetail/Silvertel/AG5405"
+AG1,"Silvertel AG5405", "PoE module",1,1,16,"https://hu.mouser.com/en/ProductDetail/Silvertel/AG5405"
