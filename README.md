@@ -15,3 +15,17 @@ And also the module had no files as well, so I made them too using theese refere
 Schematic: <img src="Pictures/Schematic.png" alt="Schematic" width="600">
 PCB: <img src="Pictures/Pcb.png" alt="PCB" width="600">
 3D: <img src="Pictures/3d.png" alt="3D" width="600">
+# BOM
+| Ref no | Name | Desc | Pcs needed | Pcs minimum order | Price for needed/minimum ordered (USD) | Link |
+|---|---|---|---|---|---|---|
+| C2 | Rubycon 16YXJ470M8X11.5 (LCSC C432444) | 470uF 16V radial electrolytic, D8 x 11.5mm, 3.5mm pitch | 1 | 5 | 0.45 | [LCSC](https://www.lcsc.com/product-detail/C432444.html) |
+| C3 | FH 0805B104K500NT (LCSC C38141) | 100nF 50V X7R 0805 ceramic | 1 | 100 | 0.68 | [LCSC](https://www.lcsc.com/product-detail/C38141.html) |
+| C4 | HRE CGA0805X7R106K250MT (LCSC C6119932) | 10uF 25V X7R 0805 ceramic | 1 | 5 | 0.38 | [LCSC](https://www.lcsc.com/product-detail/C6119932.html) |
+| D1-D8 | JSMSEMI SS210 (LCSC C20609197) | 100V 2A Schottky diode, SMA (DO-214AC) | 8 | 20 | 0.42 | [LCSC](https://www.lcsc.com/product-detail/C20609197.html) |
+| D9 | JUXING SMAJ58A (LCSC C5182308) | 400W unidirectional TVS 58V standoff / 93.6V clamp, SMA | 1 | 10 | 0.15 | [LCSC](https://www.lcsc.com/product-detail/C5182308.html) |
+| D10 | UBright red LED 0805 (LCSC C2295) | Red LED 0805, ~100mcd at 20mA | 1 | 50 | 0.54 | [LCSC](https://www.lcsc.com/product-detail/C2295.html) |
+| R1 | Yageo RC1206FR-0727KL (LCSC C137340) | 27k 1% 0.25W thick film resistor, 1206 | 1 | 100 | 0.89 | [LCSC](https://www.lcsc.com/product-detail/C137340.html) |
+| J1 | ZHOURI 2.54-2*20 | 2x20 (40-pin) female header socket, 2.54mm, straight, 8.5mm height - Pi GPIO | 1 | 5 | 1.54 | [LCSC](https://www.lcsc.com/product-detail/C2977589.html) |
+| J2 | ZHOURI 2.54-2*2 | 2x2 (4-pin) female header socket, 2.54mm, straight, 8.5mm height - Pi PoE | 1 | 10 | 0.76 | [LCSC](https://www.lcsc.com/product-detail/C2977590.html) |
+| AG1 | Silvertel AG5405 | PoE module | 1 | 1 | 16.00 | [Mouser](https://hu.mouser.com/en/ProductDetail/Silvertel/AG5405) |
+| | | | | | **Total cost: 21.81** | |
