@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Bootnrr\Desktop\Halflife\week 5\PiPOE\PiPOE.kicad_sch</source>
+    <date>2026-11-08T17:21:56</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PiPOE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AG1">
+      <value>~</value>
+      <footprint>Rpi_poe:Ag5400</footprint>
+      <fields>
+        <field name="Footprint">Rpi_poe:Ag5400</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Rpi_poe" part="Ag5400" description=""/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92607561-e660-473d-9fc1-51ca96070c0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>470 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7834a650-5405-4c47-ab65-de211de6c6c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52018452-a5ff-4ce0-bc69-5c0e7c229ae1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4257e8d8-e086-426f-8b66-fe3887a3f976</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44d57fe3-e272-4020-baf4-c6883683af82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e0de5c5-2b69-4739-837e-bc77808b4709</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>143a6a8f-49dd-41a7-aff6-c875a2ec2fb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d69726-d99c-4fb2-aa7b-6551032f1de3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8442874-95a2-4ad4-aa6c-ee2868168cda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b3d6e1a-67f5-4460-9c8a-c68540e44e0f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e176e6f-ad30-40c3-9a34-1e12aedfaa97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>SS210</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</datasheet>
+      <description>100V 2A Schottky Diode, SMA</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <libsource lib="Diode" part="SS210" description="100V 2A Schottky Diode, SMA"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2f9d473-7b46-41ef-b3d8-89dce3981e37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D9">
+      <value>SMAJ58A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</datasheet>
+      <description>400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+        <field name="Description">400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)</field>
+      </fields>
+      <libsource lib="Diode" part="SMAJ58A" description="400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="unidirectional diode TVS voltage suppressor"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04cbf6d4-ce3d-4383-b196-d5404fe827b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e8a9987-4d96-4b19-a02b-169f03261bf0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>27 kOhm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5545a7ea-bd6d-44ab-8295-190d18f5695c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>Rpi_poe 4b</value>
+      <footprint>Rpi_poe:rpi_poe</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</datasheet>
+      <description>The Raspberry Pi 4 Module B SC0193(9) single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 quad-core processor running at 1.5GHz, making it an excellent choice for a variety of embedded computing applications. With 2GB of RAM and a compact size of 85.00mm x 56.00mm, it offers performance in a small form factor. This SBC includes 40 digital I/O lines, Gigabit Ethernet, multiple USB ports (two USB 2.0 and two USB 3.0), and supports video outputs via CSI, DSI, and HDMI interfaces.</description>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">18mm</field>
+        <field name="MPN">SC0193(9)</field>
+        <field name="PARTREV">1.0</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/SC0193(9)/Raspberry+Pi/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Footprint">Rpi_poe:rpi_poe</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</field>
+        <field name="Description">The Raspberry Pi 4 Module B SC0193(9) single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 quad-core processor running at 1.5GHz, making it an excellent choice for a variety of embedded computing applications. With 2GB of RAM and a compact size of 85.00mm x 56.00mm, it offers performance in a small form factor. This SBC includes 40 digital I/O lines, Gigabit Ethernet, multiple USB ports (two USB 2.0 and two USB 3.0), and supports video outputs via CSI, DSI, and HDMI interfaces.</field>
+      </fields>
+      <libsource lib="Rpi_poe" part="Rpi_poe 4b" description="The Raspberry Pi 4 Module B SC0193(9) single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 quad-core processor running at 1.5GHz, making it an excellent choice for a variety of embedded computing applications. With 2GB of RAM and a compact size of 85.00mm x 56.00mm, it offers performance in a small form factor. This SBC includes 40 digital I/O lines, Gigabit Ethernet, multiple USB ports (two USB 2.0 and two USB 3.0), and supports video outputs via CSI, DSI, and HDMI interfaces."/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf"/>
+      <property name="MANUFACTURER" value="Raspberry Pi"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="18mm"/>
+      <property name="MPN" value="SC0193(9)"/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/SC0193(9)/Raspberry+Pi/view-part/"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Gyökér"/>
+      <property name="Sheetfile" value="PiPOE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad1c96d-3f08-4c2b-aa94-e5a12f8c0167</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="23"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="17"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="36"/>
+            <pin num="35"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="37"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="S1"/>
+            <pin num="S3"/>
+            <pin num="S4"/>
+            <pin num="S2"/>
+            <pin num="20"/>
+            <pin num="14"/>
+            <pin num="9"/>
+            <pin num="6"/>
+            <pin num="30"/>
+            <pin num="25"/>
+            <pin num="34"/>
+            <pin num="39"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SMAJ58A">
+      <description>400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)</description>
+      <docs>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAJ58A</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+        <field name="Description">400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SS210">
+      <description>100V 2A Schottky Diode, SMA</description>
+      <docs>https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS210</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf</field>
+        <field name="Description">100V 2A Schottky Diode, SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rpi_poe" part="Ag5400">
+      <fields>
+        <field name="Reference">AG5400</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN+" type="power_in"/>
+        <pin num="2" name="VIN-" type="power_in"/>
+        <pin num="3" name="AT-DET" type="output"/>
+        <pin num="4" name="IC" type="no_connect"/>
+        <pin num="5" name="IC" type="no_connect"/>
+        <pin num="6" name="IC" type="no_connect"/>
+        <pin num="7" name="-VDC" type="power_out"/>
+        <pin num="8" name="+VDC" type="power_out"/>
+        <pin num="9" name="ADJ" type="input"/>
+        <pin num="10" name="-VDC" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rpi_poe" part="Rpi_poe 4b">
+      <description>The Raspberry Pi 4 Module B SC0193(9) single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 quad-core processor running at 1.5GHz, making it an excellent choice for a variety of embedded computing applications. With 2GB of RAM and a compact size of 85.00mm x 56.00mm, it offers performance in a small form factor. This SBC includes 40 digital I/O lines, Gigabit Ethernet, multiple USB ports (two USB 2.0 and two USB 3.0), and supports video outputs via CSI, DSI, and HDMI interfaces.</description>
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Rpi_poe 4b</field>
+        <field name="Footprint">SC0193_9_:MODULE_SC0193_9_</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</field>
+        <field name="Description">The Raspberry Pi 4 Module B SC0193(9) single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 quad-core processor running at 1.5GHz, making it an excellent choice for a variety of embedded computing applications. With 2GB of RAM and a compact size of 85.00mm x 56.00mm, it offers performance in a small form factor. This SBC includes 40 digital I/O lines, Gigabit Ethernet, multiple USB ports (two USB 2.0 and two USB 3.0), and supports video outputs via CSI, DSI, and HDMI interfaces.</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/SC0193-9-_Raspberry_Pi.pdf</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">18mm</field>
+        <field name="MPN">SC0193(9)</field>
+        <field name="PARTREV">1.0</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/SC0193(9)/Raspberry+Pi/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="5V0" type="power_in"/>
+        <pin num="3" name="GPIO2/SDA1" type="bidirectional"/>
+        <pin num="4" name="5V0" type="power_in"/>
+        <pin num="5" name="GPIO3/SCL1" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GPIO4/GPIO_GCKL" type="bidirectional"/>
+        <pin num="8" name="TXD0/GPIO14" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="RXD0/GPIO15" type="bidirectional"/>
+        <pin num="11" name="GPIO17/GPIO_GEN0" type="bidirectional"/>
+        <pin num="12" name="GPIO18/GPIO_GEN1" type="bidirectional"/>
+        <pin num="13" name="GPIO27/GPIO_GEN2" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO22/GPIO_GEN3" type="bidirectional"/>
+        <pin num="16" name="GPIO23/GPIO_GEN4" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_in"/>
+        <pin num="18" name="GPIO24/GPIO_GEN5" type="bidirectional"/>
+        <pin num="19" name="GPIO10/SPI_MOSI" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="GPIO9/SPI_MISO" type="bidirectional"/>
+        <pin num="22" name="GPIO25/GPIO_GEN6" type="bidirectional"/>
+        <pin num="23" name="GPIO11/SPI_SCLK" type="bidirectional"/>
+        <pin num="24" name="GPIO8/~{SPI_CE0}" type="bidirectional"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="GPIO7/~{SPI_CE1}" type="bidirectional"/>
+        <pin num="27" name="ID_SD" type="bidirectional"/>
+        <pin num="28" name="ID_SC" type="bidirectional"/>
+        <pin num="29" name="GPIO5" type="bidirectional"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GPIO6" type="bidirectional"/>
+        <pin num="32" name="GPIO12" type="bidirectional"/>
+        <pin num="33" name="GPIO13" type="bidirectional"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GPIO19" type="bidirectional"/>
+        <pin num="36" name="GPIO16" type="bidirectional"/>
+        <pin num="37" name="GPIO26" type="bidirectional"/>
+        <pin num="38" name="GPIO20" type="bidirectional"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GPIO21" type="bidirectional"/>
+        <pin num="51" name="POE01/TR01" type="output"/>
+        <pin num="52" name="POE02/TR00" type="output"/>
+        <pin num="53" name="POE03/TR03" type="output"/>
+        <pin num="54" name="POE04/TR02" type="output"/>
+        <pin num="S1" name="SHIELD" type="power_in"/>
+        <pin num="S2" name="SHIELD" type="power_in"/>
+        <pin num="S3" name="SHIELD" type="power_in"/>
+        <pin num="S4" name="SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>${KICAD10_SYMBOL_DIR}/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Rpi_poe">
+      <uri>${KIPRJMOD}/Rpi_poe.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="AG1" pin="8" pinfunction="+VDC_8" pintype="power_out"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="5V0_2" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="5V0_4" pintype="power_in"/>
+    </net>
+    <net code="2" name="/Anode" class="Default">
+      <node ref="AG1" pin="2" pinfunction="VIN-_2" pintype="power_in"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/Cathode" class="Default">
+      <node ref="AG1" pin="1" pinfunction="VIN+_1" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="3V3" class="Default">
+      <node ref="U1" pin="1" pinfunction="3V3_1" pintype="power_in+no_connect"/>
+      <node ref="U1" pin="17" pinfunction="3V3_17" pintype="power_in+no_connect"/>
+    </net>
+    <net code="5" name="GND" class="Default">
+      <node ref="AG1" pin="10" pinfunction="-VDC_10" pintype="power_out"/>
+      <node ref="AG1" pin="7" pinfunction="-VDC_7" pintype="power_out"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND_14" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="GND_20" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="GND_25" pintype="power_in"/>
+      <node ref="U1" pin="30" pinfunction="GND_30" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="GND_34" pintype="power_in"/>
+      <node ref="U1" pin="39" pinfunction="GND_39" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U1" pin="S1" pinfunction="SHIELD_S1" pintype="power_in"/>
+      <node ref="U1" pin="S2" pinfunction="SHIELD_S2" pintype="power_in"/>
+      <node ref="U1" pin="S3" pinfunction="SHIELD_S3" pintype="power_in"/>
+      <node ref="U1" pin="S4" pinfunction="SHIELD_S4" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(AG1-AT-DET)" class="Default">
+      <node ref="AG1" pin="3" pinfunction="AT-DET_3" pintype="output"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="POE01/TR01_51" pintype="output"/>
+    </net>
+    <net code="8" name="Net-(D3-K)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="POE02/TR00_52" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(D5-K)" class="Default">
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="POE03/TR03_53" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(D7-K)" class="Default">
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="POE04/TR02_54" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(D10-A)" class="Default">
+      <node ref="D10" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(AG1-ADJ-Pad9)" class="Default">
+      <node ref="AG1" pin="9" pinfunction="ADJ_9" pintype="input+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(AG1-IC-Pad4)" class="Default">
+      <node ref="AG1" pin="4" pinfunction="IC_4" pintype="no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(AG1-IC-Pad5)" class="Default">
+      <node ref="AG1" pin="5" pinfunction="IC_5" pintype="no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(AG1-IC-Pad6)" class="Default">
+      <node ref="AG1" pin="6" pinfunction="IC_6" pintype="no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-GPIO2/SDA1-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="GPIO2/SDA1_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-GPIO3/SCL1-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="GPIO3/SCL1_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-GPIO4/GPIO_GCKL-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="GPIO4/GPIO_GCKL_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-GPIO5-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="GPIO5_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-GPIO6-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="GPIO6_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-GPIO7/~{SPI_CE1}-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="GPIO7/~{SPI_CE1}_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-GPIO8/~{SPI_CE0}-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="GPIO8/~{SPI_CE0}_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-GPIO9/SPI_MISO-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="GPIO9/SPI_MISO_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-GPIO10/SPI_MOSI-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="GPIO10/SPI_MOSI_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-GPIO11/SPI_SCLK-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="GPIO11/SPI_SCLK_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-GPIO12-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="GPIO12_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-GPIO13-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="GPIO13_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-GPIO16-Pad36)" class="Default">
+      <node ref="U1" pin="36" pinfunction="GPIO16_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-GPIO17/GPIO_GEN0-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="GPIO17/GPIO_GEN0_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-GPIO18/GPIO_GEN1-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="GPIO18/GPIO_GEN1_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-GPIO19-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="GPIO19_35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-GPIO20-Pad38)" class="Default">
+      <node ref="U1" pin="38" pinfunction="GPIO20_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-GPIO21-Pad40)" class="Default">
+      <node ref="U1" pin="40" pinfunction="GPIO21_40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-GPIO22/GPIO_GEN3-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="GPIO22/GPIO_GEN3_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-GPIO23/GPIO_GEN4-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="GPIO23/GPIO_GEN4_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-GPIO24/GPIO_GEN5-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="GPIO24/GPIO_GEN5_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-GPIO25/GPIO_GEN6-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="GPIO25/GPIO_GEN6_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-GPIO26-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="GPIO26_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-GPIO27/GPIO_GEN2-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="GPIO27/GPIO_GEN2_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-ID_SC-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="ID_SC_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-ID_SD-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="ID_SD_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-RXD0/GPIO15-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="RXD0/GPIO15_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-TXD0/GPIO14-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="TXD0/GPIO14_8" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
